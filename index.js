@@ -64,6 +64,6 @@ server.addService(notesProto.<apiname>.service, {
     }
 })
 
-server.bind('127.0.0.1:50051', grpc.ServerCredentials.createInsecure());
-console.log('Server running at http://127.0.0.1:50051');
+server.bind('<host>:<port>', grpc.ServerCredentials.createInsecure());
+console.log('Server running at <host>:<port>');
 server.start();
