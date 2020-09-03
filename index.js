@@ -16,7 +16,7 @@ const notes = [
     { id: '2', title: 'Note 2', content: 'Content 2'}
 ];
 
-server.addService(notesProto.NoteService.service, {
+server.addService(notesProto.<apiname>.service, {
     list: (_, callback) => {
         callback(null, notes);
     },
