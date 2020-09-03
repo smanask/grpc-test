@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-service NoteService {
+service <apiname> {
     rpc List (Empty) returns (NoteList) {}
     rpc Get (NoteRequestId) returns (Note) {}
     rpc Insert (Note) returns (Note) {}
