@@ -1,12 +1,12 @@
 {
-  "name": "notes_grpc",
+  "name": <apiname>,
   "version": "1.0.0",
-  "description": "gRPC Server that provided CRUD Note Service",
+  "description": <description>,
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Alfian Losari",
+  "author": "Manask Sharma",
   "license": "MIT",
   "dependencies": {
     "@grpc/proto-loader": "^0.3.0",
